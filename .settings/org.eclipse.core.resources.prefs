@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/conf/jdbc.properties=UTF-8
+encoding//src/main/resources/conf/user.properties=UTF-8
+encoding//src/main/resources/conf/webapp.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/fore/myWeb/fengmian.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/fore/myWeb/view.jsp=UTF-8
+encoding//src/main/webapp/music/styles.css=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=UTF-8
