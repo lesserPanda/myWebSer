@@ -23,7 +23,7 @@
 	
 	
 	<!-- 自动扫描装配组件(只扫描@Controller) 代替了　<context:annotation-config/>　-->
-	<context:component-scan base-package="net.tuxun.component.*.web, net.tuxun.customer.module.*.web">
+	<context:component-scan base-package="net.tuxun.component.*.web, com.lesserPanda.module.*.web">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
 	</context:component-scan>

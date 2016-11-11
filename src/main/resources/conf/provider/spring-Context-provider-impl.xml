@@ -20,10 +20,10 @@
 
 
    	<!-- 具体的实现bean   -->
-    <bean id="iSkillInfoService" class="net.tuxun.customer.module.myWeb.service.impl.SkillInfoServiceImpl" /> 
-    <bean id="iMusicInfoService" class="net.tuxun.customer.module.myWeb.service.impl.MusicInfoServiceImpl" />
-    <bean id="iMessagePerpleService" class="net.tuxun.customer.module.myWeb.service.impl.MessagePerpleServiceImpl" />
-    <bean id="iCmsCommentService" class="net.tuxun.customer.module.myWeb.service.impl.CmsCommentServiceImpl" />
-    <bean id="iArticleService" class="net.tuxun.customer.module.myWeb.service.impl.ArticleServiceImpl" /> 
+    <bean id="iSkillInfoService" class="com.lesserPanda.module.myWeb.service.impl.SkillInfoServiceImpl" /> 
+    <bean id="iMusicInfoService" class="com.lesserPanda.module.myWeb.service.impl.MusicInfoServiceImpl" />
+    <bean id="iMessagePerpleService" class="com.lesserPanda.module.myWeb.service.impl.MessagePerpleServiceImpl" />
+    <bean id="iCmsCommentService" class="com.lesserPanda.module.myWeb.service.impl.CmsCommentServiceImpl" />
+    <bean id="iArticleService" class="com.lesserPanda.module.myWeb.service.impl.ArticleServiceImpl" /> 
     
 </beans>

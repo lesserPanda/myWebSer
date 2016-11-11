@@ -20,10 +20,10 @@
 
 
 	<!-- 声明需要暴露的服务接口   -->
-    <dubbo:service interface="net.tuxun.customer.module.myWeb.service.ISkillInfoService" ref="iSkillInfoService" />
-    <dubbo:service interface="net.tuxun.customer.module.myWeb.service.IMusicInfoService" ref="iMusicInfoService" /> 
-    <dubbo:service interface="net.tuxun.customer.module.myWeb.service.IMessagePerpleService" ref="iMessagePerpleService" /> 
-    <dubbo:service interface="net.tuxun.customer.module.myWeb.service.ICmsCommentService" ref="iCmsCommentService" /> 
-    <dubbo:service interface="net.tuxun.customer.module.myWeb.service.IArticleService" ref="iArticleService" /> 
+    <dubbo:service interface="com.lesserPanda.module.myWeb.service.ISkillInfoService" ref="iSkillInfoService" />
+    <dubbo:service interface="com.lesserPanda.module.myWeb.service.IMusicInfoService" ref="iMusicInfoService" /> 
+    <dubbo:service interface="com.lesserPanda.module.myWeb.service.IMessagePerpleService" ref="iMessagePerpleService" /> 
+    <dubbo:service interface="com.lesserPanda.module.myWeb.service.ICmsCommentService" ref="iCmsCommentService" /> 
+    <dubbo:service interface="com.lesserPanda.module.myWeb.service.IArticleService" ref="iArticleService" /> 
       
 </beans>

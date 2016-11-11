@@ -19,7 +19,7 @@
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
         
-    <context:property-placeholder location="classpath:confinfo.properties" ignore-unresolvable="true" order="1"/>
+    <context:property-placeholder location="classpath:procCnfInfo.properties" ignore-unresolvable="true" order="1"/>
     
     <!-- 具体的实现bean   -->
     <!-- <bean id="demoService" class="pand.dubbo.serviceImpl.DubboDemoServiceImpl" />   -->
@@ -28,7 +28,8 @@
     <dubbo:application name="${dubbo.application}"  />  
     
   <!--   使用zookeeper注册中心暴露服务地址   -->
-    <dubbo:registry address="${dubbo.registry}" />   
+    <!-- <dubbo:regist ry address="${dubbo.registry}" />  --> 
+    <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}"/>  
     
  <!--    用dubbo协议在20880端口暴露服务   -->
     <dubbo:protocol name="dubbo" port="${dubbo.protocol}" />  
